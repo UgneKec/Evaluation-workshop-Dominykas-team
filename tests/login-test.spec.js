@@ -69,6 +69,7 @@ test.describe('Lunch App', () => {
         '//span[@style="text-transform: capitalize;" and text()="Lunch Editing"]'
       );
       await lunchEditPage.navigateToProviderSettings();
+      await lunchEditPage.enterNewProviderInfo();
     });
   });
 });
